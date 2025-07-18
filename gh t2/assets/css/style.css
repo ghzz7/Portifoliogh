@@ -8,20 +8,71 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 4vh 10vw;
+}
+.pai{
+    align-items: center;
+    display: flex; 
+    justify-content: space-between;
+    padding: 2vh 7vw;
+}
+.filho{
+    align-items: center;
+    flex-direction: column;
+    margin-right: 500px;
 }
 .perfil{
     width: 200px;
     border-radius: 100%;
 }
+h1{
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    font-size: 75px;
+}
+h3{
+    align-items: center;
+    margin-left: 250px;
+}
 ul{
     list-style: none;
     display: flex;
-    gap: 5rem;
+    gap: 220px;
+    font-size: 26px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 1vh;
 }
 a{
     color: white;
     text-decoration: none;
     font-weight: 600;
-    
 }
+#Inicio{
+    padding: 4vh 7vw;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+#Inicio img{
+    width: 300px;
+}
+#projetos{
+    align-items: center;
+    display: flex;
+}
+.projetos-img{
+    align-items: center;
+    display: flex;
+}
+.tplog{
+    width: 100px;
+}
+.shopee{
+    width: 300px;
+    margin-left: 900px;
+}
+
+
