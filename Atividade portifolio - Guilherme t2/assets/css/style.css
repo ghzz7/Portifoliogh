@@ -1,0 +1,186 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    background: #040026;
+    background: radial-gradient(circle, rgba(4, 0, 38, 1) 0%, rgba(60, 47, 145, 1) 100%);
+}
+
+header {
+    background: #040026;
+    background: linear-gradient(90deg, rgba(4, 0, 38, 1) 18%, rgba(60, 47, 145, 1) 67%, rgba(102, 0, 255, 1) 100%);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pai {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 7vw;
+}
+
+.filho {
+    align-items: center;
+    flex-direction: column;
+    margin-right: 500px;
+}
+
+.perfil {
+    width: 200px;
+    border-radius: 100%;
+}
+
+h1 {
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    font-size: 75px;
+}
+
+h3 {
+    align-items: center;
+    margin-left: 250px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 220px;
+    font-size: 26px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 1vh;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#Inicio {
+    padding: 4vh 7vw;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+#Sobre h2 {
+    color: #545454;
+    font-size: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h2 {
+    color: #545454;
+    font-size: 35px;
+    padding-bottom: 8vh;
+    text-align: center;
+    padding-top: 35px;
+}
+
+#Inicio img {
+    width: 300px;
+}
+#Inicio p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#projetospai {
+    display: flex;
+    flex-direction: column;
+    padding: 4vh 17vw;
+}
+
+.projetosfilho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.tplog img {
+    height: 323px;
+    width: 525px;
+    border: 6px solid #545454;
+}
+
+.tplog p {
+    text-align: center;
+    font-size: 25px;
+    border: 6px solid #545454;
+}
+
+.Shopee p {
+    text-align: center;
+    font-size: 25px;
+    border: 6px solid #545454;
+}
+
+.projetosfilho {
+    height: 364px;
+    width: 520px;
+    display: flex;
+}
+
+.projetosfilho img {
+    border: 6px solid #545454;
+    justify-content: center;
+}
+
+#contato {
+    background-color: white;
+    align-items: center;
+}
+
+form {
+    align-items: center;
+    margin-left: 730px;
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    background-color: #EEE;
+    border-radius: 3px solid black;
+    padding: 4rem;
+    box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.15);
+    margin-bottom: 40px;
+}
+
+form input {
+    border: 0;
+    background-color: #fff;
+    width: 200px;
+    padding: 10px;
+    outline: none;
+    padding-bottom: 2vh;
+}
+input:focus{
+    box-shadow:  0px 0px 4px #000;
+}
+
+form label {
+    font-size: 20px;
+}
+
+footer {
+    align-items: center;
+    background: #6600FF;
+    background: linear-gradient(90deg, rgba(102, 0, 255, 1) 0%, rgba(60, 47, 145, 1) 33%, rgba(4, 0, 38, 1) 67%);
+    padding: 3vh;
+}
+
+footer p {    
+    font-size: 35px;
+    margin-left: 75px;
+    color: #000;
+}
